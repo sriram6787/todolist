@@ -1,0 +1,34 @@
+
+body, html {
+    
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: greenyellow;
+  }
+.TodoWrapper {
+    text-align: center;
+    background-color: greenyellow;
+    
+}
+.Todo{
+  display:flex;
+ background-color: lightcoral;
+  text-align: center;
+}
+.icons{
+  margin-left: 200px;
+  margin-top: 15px; 
+}
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+.todo-input{
+  margin-right: '10px';
+  width:'400px';
+  height:'100%x';
+  background-color:'bisque'
+}
